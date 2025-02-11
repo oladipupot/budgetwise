@@ -10,7 +10,7 @@ function AddExpenseModal({
     <Modal
       style={{ fontWeight: 600 }}
       title="Add Expense"
-      visible={isExpenseModalVisible}
+      open={isExpenseModalVisible}
       onCancel={handleExpenseCancel}
       footer={null}
     >
